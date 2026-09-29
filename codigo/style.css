@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
 }
 #primeiro_header{
-    background-image: url(imagens/bg-3.jpg);
+    background-image: url(../imagens/bg-3.jpg);
     background-size: cover;
     height: 500px;
     background-position: right center;
@@ -110,4 +110,14 @@ footer aside p{
     padding: 20px;
     text-transform: uppercase;
 
+}
+section#titulo{
+    font-size: 125%;
+}
+.saibaMais:hover{
+    text-decoration: underline;
+    
+}
+.saibaMais{
+    border-radius: 6px;
 }
